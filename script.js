@@ -145,7 +145,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Ahmad Nursidik Dinar pada hari ini dengan sepenuh hati mengucapkan", " ", "<b>Selamat Yudisium</b>", " ", "Semoga kamu bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Dinar, Mas ganteng :)"],
+  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Ahmad Nursidik Dinar pada hari ini dengan sepenuh hati mengucapkan", " ", "<b>Selamat Yudisium</b>", " ", "Semoga kamu bahagia selalu dengan gelar barunya dan semoga segera mendapatkan pekerjaan impian kamu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Dinar :)"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
@@ -160,7 +160,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Terimakasih. udah selesai abis"],
   startDelay: 2000,
   speed: 150,
   loop: false,
