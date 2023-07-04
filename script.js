@@ -21,7 +21,7 @@ let countDown = new Date('Aug 23, 2020 00:00:00').getTime(),
       timer.classList.add('d-none');
       confetti();
       clearInterval(x);
-      _slideSatu();
+      _slideDua();
     }
 
   }, second)
