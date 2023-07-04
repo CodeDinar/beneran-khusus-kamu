@@ -39,7 +39,6 @@ const _slideSatu = function () {
 };
 
 const _slideDua = function () {
-  const slideSatu = document.getElementById('slideSatu');
   const tap = document.getElementById('tap');
   const slideDua = document.getElementById('slideDua');
 
