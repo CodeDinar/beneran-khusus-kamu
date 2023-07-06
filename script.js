@@ -122,7 +122,7 @@ const _slideLima = function () {
 
   setTimeout(() => {
     trims.classList.remove('d-none');
-  }, 1000);
+  }, 4000);
 
   slideLima.addEventListener('animationend', () => {
     slideLima.classList.add('animate__delay-3s')
