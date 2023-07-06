@@ -6,6 +6,10 @@ html {
   text-align: center;
 }
 
+.song {
+  visibility: hidden;
+}
+
 .bg {
   /* Location of the image */
   background-image: url(Assets/38030.jpg);
