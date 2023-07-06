@@ -2,7 +2,7 @@ const content = document.getElementById('content');
 const footer = document.getElementsByTagName('footer')[0];
 const timer = document.getElementById('timer');
 
-window.addEventListener('load', () => {
+document.body.addEventListener('load', () => {
   Swal.fire({
     title: 'Do you want to play music in the background?',
     // text: "You won't be able to revert this!",
