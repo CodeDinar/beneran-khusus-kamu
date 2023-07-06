@@ -1,7 +1,3 @@
-const content = document.getElementById('content');
-const footer = document.getElementsByTagName('footer')[0];
-const timer = document.getElementById('timer');
-
 document.body.addEventListener('load', () => {
   Swal.fire({
     title: 'Do you want to play music in the background?',
@@ -15,12 +11,16 @@ document.body.addEventListener('load', () => {
   }).then((result) => {
     if (result.isConfirmed) {
       document.querySelector('.song').play();
-      resolveFetch().then(animationTimeline());
+      resolveFetch().then(content());
     } else {
-      resolveFetch().then(animationTimeline());
+      resolveFetch().then(content());
     }
   });
 });
+
+const content = document.getElementById('content');
+const footer = document.getElementsByTagName('footer')[0];
+const timer = document.getElementById('timer');
 
 const second = 1000,
   minute = second * 60,
