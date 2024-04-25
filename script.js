@@ -171,7 +171,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii cantik!!", "Selamat Yudisium ya..", " ", "Ciie udah punya gelar, padahal baru aja beberapa hari kemarin kamu marah-marah tentang skripsi hehe, semoga di gellar yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Yudisium ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Haii cantik!!", "Selamat Yudisium ya..", " ", "Ciie udah punya gelar, padahal baru aja beberapa hari kemarin kamu marah-marah tentang skripsi hehe, semoga di gellar yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya akang gabisa kasih surprise yang romantis. cuma ini yang bisa akang kasih ke kamu, akang harap kamu suka ya :)", "Sekali lagi, Selamat Yudisium ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin. BTW ini harusnya ada musiknya,kalo g bunyi coba buka pake laptop deh, ehe"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
